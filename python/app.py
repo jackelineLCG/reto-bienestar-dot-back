@@ -61,5 +61,5 @@ def lambda_handler(event, context):
 
     return{
         'statusCode':200,
-        'body':json.dumps('Blog Generation is completed')
+        'body':json.dumps('Description Generation is completed')
     }
